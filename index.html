@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS Practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/tailwind.config.js"></script>
+  </head>
+
+  <body>
+    <!-- ============================================ header start ============================================ -->
+    <header class="bg-gray pt-[18px] pb-3.5 border-b-4 border-yellow_line">
+      <div class="max-w-container mx-auto">
+        <div class="flex justify-between">
+          <div class="flex gap-x-12 relative">
+            <a class="flex items-center after:content-[''] after:w-0.5 after:h-4 after:absolute after:bg-light_gray after:left-2/4 after:top-1/2 after:-translate-y-2/4 after:-translate-x-2/4" href="mailto:mail@yourcompany.com">
+              <picture>
+                <img class="pr-[5px]" src="images/mail.png" alt="mail" />
+              </picture>
+              <span class="text-white text-xs leading-[18px] font-my_font font-normal">mail@yourcompany.com</span>
+            </a>
+            <a class="flex items-center" href="tel:896 120 5889">
+              <picture>
+                <img class="pr-[5px]" src="images/mobile.png" alt="call" />
+              </picture>
+              <span class="shrink-0 text-white text-xs leading-[18px] font-my_font font-normal">+896 120 5889 (Toll free)</span>
+            </a>
+          </div>
+          <div class="flex justify-end gap-x-4">
+            <a class="text-white" href="#">
+              <i class="text-base transition duration-300 ease-linear hover:text-primary fa-brands fa-facebook-f"></i>
+            </a>
+            <a class="text-white" href="#">
+              <i class="text-base transition duration-300 ease-linear hover:text-primary fa-brands fa-twitter"></i>
+            </a>
+            <a class="text-white" href="#">
+              <i class="text-base transition duration-300 ease-linear hover:text-primary fa-brands fa-linkedin-in"></i>
+            </a>
+            <a class="text-white" href="#">
+              <i class="text-base transition duration-300 ease-linear hover:text-primary fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ============================================ header end ============================================ -->
+
+    <!-- ============================================ navbar start ============================================ -->
+    <!-- ============================================ navbar end ============================================ -->
+  </body>
+</html>
