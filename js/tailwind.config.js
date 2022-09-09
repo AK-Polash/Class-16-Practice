@@ -4,6 +4,7 @@ tailwind.config = {
       colors: {
         primary: "#F40404",
         secondary: "#F0F0F0",
+        rapid: '#6C6C6C',
         white_light: "rgba(255, 255, 255, 0.5)",
         yellow_line: "#FFB800",
         gray: "#282828",
