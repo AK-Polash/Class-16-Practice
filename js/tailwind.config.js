@@ -19,7 +19,10 @@ tailwind.config = {
         large_container: '1920px'
       },
       backgroundImage: {
-        'banner_img': "url('images/banner.jpg')"
+        'banner_img': "url('images/banner.jpg')",
+        'service_one_img': "url('images/service_1.png')",
+        'service_two_img': "url('images/service_2.png')",
+        'service_three_img': "url('images/service_3.png')",
       }
     }
   },
