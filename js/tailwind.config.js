@@ -23,6 +23,7 @@ tailwind.config = {
         'service_one_img': "url('images/service_1.png')",
         'service_two_img': "url('images/service_2.png')",
         'service_three_img': "url('images/service_3.png')",
+        'company_img': "url('images/company.png')",
       }
     }
   },
