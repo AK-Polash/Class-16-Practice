@@ -10,6 +10,7 @@ tailwind.config = {
         gray: "#282828",
         light_gray: "#5C6A92",
         overlay_color: 'rgba(0, 0, 0, 0.6)',
+        footer_color: '#1F1F1F'
       },
       fontFamily: {
         my_font: ['Poppins', 'sans-serif']
